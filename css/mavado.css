@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.mavado-page{
+    /* border: 1px solid; */
+}
+.mavado-page .mavado{
+     border: 1px solid red;
+     height: 100vh;
+     width: 100%;
+}
+.mavado-page .mavado1-card{
+     border: 1px solid green;
+     height: 50vh;
+     width: 100%;
+     display: flex;
+}
+.mavado1-card .divite{
+     border: 1px solid;
+     height: 50vh;
+     width: 25%;
+     overflow: hidden;
+     position: relative;
+}
+.mavado1-card .div1{
+    background: url(../mavadoimg/mavado1.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.mavado1-card .divite:hover{
+    /* border: 1px solid rgb(17, 255, 0); */
+background: url(../mavadoimg/mavado1.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.divite .cover{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+  position: absolute;
+  top: 0%;
+}
+.divite:hover .cover{
+    background-color: rgba(66, 63, 69, 0.304);
+    /* : 50%; */
+}
+.cover a h3{
+    /* border: 1px solid red; */
+    height: 13%;
+    width: 30%;
+    text-align: center;
+    margin: 83% 32% 0%;
+    padding-top:12px;
+    color: rgb(19, 19, 19);
+    font-size: 1.1rem;
+    border-radius: 5px;
+     background-color: rgb(206, 145, 64);
+}
+.cover a{
+    text-decoration: none;
+}
+.mavado1-card .div2{
+    background: url(../mavadoimg/mavado2.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.mavado1-card .div2:hover{
+background: url(../mavadoimg/mavado2.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.mavado1-card .div3{
+    background: url(../mavadoimg/mavado3.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.mavado1-card .div3:hover{
+background: url(../mavadoimg/mavado3.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.mavado1-card .div4{
+    background: url(../mavadoimg/mavado4.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.mavado1-card .div4:hover{
+background: url(../mavadoimg/mavado4.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.mavado-page .mavado2-card{
+     border: 1px solid;
+     height: 50vh;
+     width: 100%;
+     display: flex;
+}
+.mavado2-card .divite{
+     border: 1px solid;
+     height: 50vh;
+     width: 25%;
+     overflow: hidden;
+     position: relative;
+}
+.mavado2-card .div5{
+    background: url(../mavadoimg/mavado5.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.mavado2-card .div5:hover{
+background: url(../mavadoimg/mavado5.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.divite .cover2{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+   position: absolute;
+   top: 0%;
+}.divite:hover .cover2{
+    background-color: rgba(66, 63, 69, 0.304);
+}
+.cover2 h3{
+    /* border: 1px solid red; */
+    height: 13%;
+    width: 30%;
+    text-align: center;
+    margin: 82% 32% 0%;
+    padding-top:12px;
+    color: rgb(19, 19, 19);
+    font-size: 1.1rem;
+    border-radius: 5px;
+     background-color: rgb(206, 145, 64);
+}
+.cover2 a{
+    text-decoration: none;
+}
+.mavado2-card .div6{
+    background: url(../mavadoimg/mavado6.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.mavado2-card .div6:hover{
+background: url(../sevenimg/seven6.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.mavado2-card .div7{
+    background: url(../mavadoimg/mavado7.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.mavado2-card .div7:hover{
+background: url(../mavadoimg/mavado7.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.mavado2-card .div8{
+    background: url(../mavadoimg/mavado8.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.mavado2-card .div8:hover{
+background: url(../mavadoimg/mavado8.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}

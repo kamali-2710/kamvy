@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.disel-page .disel{
+     /* border: 1px solid; */
+     height: 100vh;
+     width: 100%;
+}
+.disel-page .disel1-card{
+     /* border: 5px solid green; */
+     height: 50vh;
+     width: 100%;
+     display: flex;
+}
+.disel1-card .divite{
+     /* border: 1px solid; */
+     height: 50vh;
+     width: 25%;
+     overflow: hidden;
+     position: relative;
+}
+.disel1-card .div1{
+    background: url(../diselimg/img1.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.disel1-card .divite:hover{
+    /* border: 1px solid rgb(17, 255, 0); */
+background: url(../diselimg/img.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.divite .cover{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+  position: absolute;
+  top: 0%;
+}
+.divite:hover .cover{
+    background-color: rgba(171, 167, 176, 0.304);
+}
+.cover a h3{
+    /* border: 1px solid red; */
+    height: 13%;
+    width: 30%;
+    text-align: center;
+    margin: 83% 32% 0%;
+    padding-top:12px;
+    color: rgb(19, 19, 19);
+    font-size: 1.1rem;
+    border-radius: 5px;
+     background-color: rgb(206, 145, 64);
+}
+.cover a{
+    text-decoration: none;
+}
+.disel1-card .div2{
+    background: url(../diselimg/img2.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.disel1-card .div2:hover{
+background: url(../diselimg/img2.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.disel1-card .div3{
+    background: url(../diselimg/img3.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.disel1-card .div3:hover{
+background: url(../diselimg/img3.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.disel1-card .div4{
+    background: url(../diselimg/img4.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.disel1-card .div4:hover{
+background: url(../diselimg/img4.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.disel-page .disel2-card{
+     /* border: 1px solid; */
+     height: 50vh;
+     width: 100%;
+     display: flex;
+}
+.disel2-card .divite{
+     /* border: 1px solid; */
+     height: 50vh;
+     width: 25%;
+     overflow: hidden;
+     position: relative;
+}
+.disel2-card .div5{
+    background: url(../diselimg/img5.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.disel2-card .div5:hover{
+background: url(../diselimg/img5.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.divite .cover2{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+   position: absolute;
+   top: 0%;
+}.divite:hover .cover2{
+    background-color: rgba(66, 63, 69, 0.304);
+}
+.cover2 h3{
+    /* border: 1px solid red; */
+    height: 13%;
+    width: 30%;
+    text-align: center;
+    margin: 82% 32% 0%;
+    padding-top:12px;
+    color: rgb(19, 19, 19);
+    font-size: 1.1rem;
+    border-radius: 5px;
+     background-color: rgb(206, 145, 64);
+}
+.cover2 a{
+    text-decoration: none;
+}
+.disel2-card .div6{
+    background: url(../diselimg/img6.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.disel2-card .div6:hover{
+background: url(../diselimg/img6.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.disel2-card .div7{
+    background: url(../diselimg/img7.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.disel2-card .div7:hover{
+background: url(../diselimg/img7.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.disel2-card .div8{
+    background: url(../diselimg/img8.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.disel2-card .div8:hover{
+background: url(../diselimg/img8.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}

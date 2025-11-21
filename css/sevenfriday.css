@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.sf-page .seven{
+     border: 1px solid red;
+     height: 100vh;
+     width: 100%;
+}
+.sf-page .seven1-card{
+     border: 1px solid green;
+     height: 50vh;
+     width: 100%;
+     display: flex;
+}
+.seven1-card .divite{
+     border: 1px solid;
+     height: 50vh;
+     width: 25%;
+     overflow: hidden;
+     position: relative;
+}
+.seven1-card .div1{
+    background: url(../sevenimg/seven1.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.seven1-card .divite:hover{
+    /* border: 1px solid rgb(17, 255, 0); */
+background: url(../sevenimg/seven1.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.divite .cover{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+  position: absolute;
+  top: 0%;
+}
+.divite:hover .cover{
+    background-color: rgba(66, 63, 69, 0.304);
+    /* : 50%; */
+}
+.cover a h3{
+    /* border: 1px solid red; */
+    height: 13%;
+    width: 30%;
+    text-align: center;
+    margin: 83% 37% 0%;
+    padding-top:12px;
+    color: rgb(19, 19, 19);
+    font-size: 1.1rem;
+    border-radius: 5px;
+     background-color: rgb(206, 145, 64);
+}
+.cover a{
+    text-decoration: none;
+}
+.seven1-card .div2{
+    background: url(../sevenimg/seven2.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.seven1-card .div2:hover{
+background: url(../sevenimg/seven2.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.seven1-card .div3{
+    background: url(../sevenimg/seven3.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.seven1-card .div3:hover{
+background: url(../sevenimg/seven3.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.seven1-card .div4{
+    background: url(../sevenimg/seven4.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.seven1-card .div4:hover{
+background: url(../sevenimg/seven4.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.sf-page .seven2-card{
+     border: 1px solid;
+     height: 50vh;
+     width: 100%;
+     display: flex;
+}
+.seven2-card .divite{
+     border: 1px solid;
+     height: 50vh;
+     width: 25%;
+     overflow: hidden;
+     position: relative;
+}
+.seven2-card .div5{
+    background: url(../sevenimg/seven5.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.seven2-card .div5:hover{
+background: url(../sevenimg/seven5.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.divite .cover2{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+   position: absolute;
+   top: 0%;
+}.divite:hover .cover2{
+    background-color: rgba(66, 63, 69, 0.304);
+}
+.cover2 h3{
+    /* border: 1px solid red; */
+    height: 13%;
+    width: 30%;
+    text-align: center;
+    margin: 82% 32% 0%;
+    padding-top:12px;
+    color: rgb(19, 19, 19);
+    font-size: 1.1rem;
+    border-radius: 5px;
+     background-color: rgb(206, 145, 64);
+}
+.cover2 a{
+    text-decoration: none;
+}
+.seven2-card .div6{
+    background: url(../sevenimg/seven6.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.seven2-card .div6:hover{
+background: url(../sevenimg/seven6.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.seven2-card .div7{
+    background: url(../sevenimg/seven7.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.seven2-card .div7:hover{
+background: url(../sevenimg/seven7.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
+.seven2-card .div8{
+    background: url(../sevenimg/seven8.jpg)no-repeat;
+    background-size: contain;
+     background-position: center;
+     transition: .10s;
+}
+.seven2-card .div8:hover{
+background: url(../sevenimg/seven8.1.jpg)no-repeat;
+    background-size: contain;
+    background-position: center;
+      transition: .8s;
+}
